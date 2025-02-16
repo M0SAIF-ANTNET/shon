@@ -3,10 +3,10 @@ const cors = require('cors');
 const multer = require('multer');
 const path = require('path');
 const app = express();
-const port = 5001; // هنوزع حب بالكيلو والبابا مش هنديله
+const port = 5001; 
 
 app.use(cors({
-  origin: 'http://localhost:5173', // والمعرص برضه مش هنديله
+  origin: 'http://localhost:5173',
   credentials: true
 }));
 app.use(express.json());
